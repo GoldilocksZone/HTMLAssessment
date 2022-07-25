@@ -1,3 +1,67 @@
 .subjectHeader {
   color: green;
+  font-family: sans-serif;
+}
+
+table {
+  text-align: center;
+  vertical-align: middle; /* Did this do anything? */
+  border: 2px solid;
+}
+
+th {
+  font-weight: bold;
+  color: blue;
+}
+
+ul {
+  list-style-type: square;
+}
+
+blockquote {
+  color: white;
+  background-color: darkgrey;
+}
+
+a:hover {
+  background-color: lightgray;
+  text-decoration: none;
+}
+
+
+li > img[alt~="Logo"] {
+  display: none;
+}
+
+li > br {
+  display: none;
+}
+
+/* Make Broncos logo background for Broncos team info. */
+#teamRoster > li:first-child::after {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  opacity: 0.3;
+}
+
+/* Make Bears logo background for Bears team info. */
+#teamRoster > li:last-child::after {
+  content: "";
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  /*background-repeat: no-repeat;*/
+  object-fit: contain;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+#teamRoster > li > li {
+  opacity: 0.9;
+}
+
+#checkbox-grid {
+  list-style-type: none;
 }
