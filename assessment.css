@@ -14,6 +14,10 @@ th {
   color: blue;
 }
 
+table > * > tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
 ul {
   list-style-type: square;
 }
@@ -38,18 +42,33 @@ li > br {
 }
 
 /* Make Broncos logo background for Broncos team info. */
+#teamRoster > li:first-child {
+  position: relative;
+}
+
 #teamRoster > li:first-child::after {
+  content: "";
   background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
   background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   opacity: 0.3;
 }
 
 /* Make Bears logo background for Bears team info. */
+#teamRoster > li:last-child {
+  position: relative;
+}
+
 #teamRoster > li:last-child::after {
   content: "";
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
-  /*background-repeat: no-repeat;*/
-  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -64,4 +83,8 @@ li > br {
 
 #checkbox-grid {
   list-style-type: none;
+}
+
+ol > li:first-child {
+  font-weight: bold;
 }
