@@ -9,7 +9,7 @@
 #### - Form
 ## Altogether, these four sections display the following skills:
 #### - The ability to use HTML tags to format web content, including paragraphs, tabular material, and media.
-#### - The proper use or ordered and unordered lists.
+#### - The proper use of ordered and unordered lists.
 #### - The integration of lorem ipsum text as a feature of mock-up design.
 #### - The use of forms to elicit information from a user.
 
