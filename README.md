@@ -3,15 +3,15 @@
 
 # Project Description
 ## To showcase the skills we have gained during SKill Distiller's introductory lesson to HTML and HTML coding, we created a webpage with four major sections:
-### - Text
-### - Table
-### - List
-### - Form
+#### - Text
+#### - Table
+#### - List
+#### - Form
 ## Altogether, these four sections display the following skills:
-### - The ability to use HTML tags to format web content, including paragraphs, tabular material, and media.
-### - The proper use or ordered and unordered lists.
-### - The integration of lorem ipsum text as a feature of mock-up design.
-### - The use of forms to elicit information from a user.
+#### - The ability to use HTML tags to format web content, including paragraphs, tabular material, and media.
+#### - The proper use or ordered and unordered lists.
+#### - The integration of lorem ipsum text as a feature of mock-up design.
+#### - The use of forms to elicit information from a user.
 
 # Technologies Used
 ## HTML
